@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBerdikari | Pioneering Digital Social Work</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .gradient-text {
+            background: linear-gradient(90deg, #3B82F6, #60A5FA);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-bg {
+            background: radial-gradient(circle at top right, #1e293b, #0f172a);
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .stat-highlight {
+            color: #60A5FA;
+            font-weight: 800;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body class="bg-slate-950 text-slate-200">
+
+    <!-- Hero Section -->
+    <header class="hero-bg min-h-screen flex flex-col justify-center items-center px-6 text-center">
+        <div class="mb-6 flex flex-row items-center justify-center gap-4">
+
+            <!-- ロゴ画像をこちらに配置します。src="logo.png" を実際のファイル名やパスに変更してください -->
+            <img src="./logo.png" alt="Jayatech Logo"
+                class="w-12 h-12 md:w-16 md:h-16 rounded-full object-cover shadow-lg border-2 border-white/20">
+            <div class="text-white font-extrabold text-2xl md:text-4xl tracking-tight">
+                JAYATECH
+            </div>
+        </div>
+        <h1 class="text-5xl md:text-8xl font-extrabold mb-8 tracking-tighter text-white leading-tight">
+            Pioneering the future of <br>
+            <span class="gradient-text">Digital Social Work</span>
+        </h1>
+        <p class="text-xl md:text-2xl text-slate-400 max-w-3xl leading-relaxed mb-12">
+            We believe that Social Work combined with the latest technology can overcome barriers of language and
+            distance<br>
+            bringing happiness to people with disabilities
+        </p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-32 px-6 max-w-4xl mx-auto">
+        <h2 class="text-blue-500 font-bold mb-4">01. WHO AM I</h2>
+        <h3 class="text-4xl font-bold text-white mb-8">Social Worker : Kenshi Tanaka</h3>
+        <div class="flex flex-col md:flex-row gap-12 items-center">
+            <div class="flex-1 space-y-6 text-lg text-slate-400 leading-relaxed">
+                <p>
+                    I am a Social Worker who has dedicated over 20 years in Japan
+                    and over 3 years in Malaysia to supporting people with disabilities and their families.
+                </p>
+                <p>
+                    What I witnessed here was a unfortunate reality, no matter how advanced technology becomes globally, its
+                    benefits are not reaching the Malaysian families who need it most.
+                </p>
+                <p>
+                    Filling the gap where professional 'hands' cannot reach with technology "Digital Social
+                    Work" is the answer I believe.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Malaysia Section -->
+    <section class="py-32 bg-slate-900 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-blue-500 font-bold mb-4 uppercase tracking-widest text-sm">02. THE FIELD</h2>
+            <h3 class="text-4xl font-bold text-white mb-8 text-center">The Massive "Gap in Support" in Malaysia</h3>
+        </div>
+        <div class="max-w-5xl mx-auto">
+            <div class="glass-card p-10 rounded-3xl space-y-8 shadow-2xl">
+                <p class="text-xl text-slate-300 text-center">
+                    Welfare resources in Malaysia are reaching their limits due to language and distance.
+                </p>
+                <div class="grid md:grid-cols-2 gap-8 text-slate-400">
+                    <div class="bg-slate-800/50 p-6 rounded-2xl border-l-4 border-blue-500">
+                        <h4 class="text-white font-bold mb-4">● Unreachable Support</h4>
+                        <p class="mb-4 text-lg">There are approximately <span
+                                class="stat-highlight text-2xl">800,000</span> registered people with disabilities, but
+                            services capacities only about <span
+                                class="stat-highlight text-blue-400 text-2xl">100,000</span>.</p>
+                        <p
+                            class="text-sm font-bold bg-red-500/10 text-red-400 p-3 rounded text-center uppercase tracking-wider">
+                            87.5% are left outside the support system.</p>
+                    </div>
+                    <div class="bg-slate-800/50 p-6 rounded-2xl border-l-4 border-blue-500">
+                        <h4 class="text-white font-bold mb-4">● Linguistic Disconnect</h4>
+                        <p>In a multi-ethnic nation, language is a major wall. Sometimes families cannot access even the
+                            few
+                            existing services simply because of mismatches.</p>
+                        <p
+                            class="mt-4 text-sm font-bold bg-blue-500/10 text-blue-400 p-3 rounded text-center tracking-wider">
+                            Bahasa Melayu / English / 中文 / தமிழ்
+                        </p>
+                    </div>
+                </div>
+                <p class="text-slate-400 leading-relaxed italic text-center text-lg mt-8">
+                    We cannot wait for face-to-face support <br class="hidden md:block">
+                    Scaling care through technology is the answer.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Challenge Section -->
+    <section class="py-32 px-6 max-w-4xl mx-auto">
+        <h2 class="text-blue-500 font-bold mb-4 uppercase tracking-widest text-sm text-center">03. THE CHALLENGE</h2>
+        <h3 class="text-4xl font-bold text-white mb-8 text-center">Ending "The Parent's Nightmare"</h3>
+        <div class="space-y-12">
+            <div class="bg-red-900/10 border-l-4 border-red-500 p-8">
+                <p class="text-2xl font-bold text-red-400 mb-4">"What will happen to my child after I am gone?" A mother
+                    said</p>
+                <p class="text-slate-400 leading-relaxed">
+                    For those with intellectual disabilities, changes in environment are terrifying. Losing someone who
+                    cares for them in a familiar language is a matter of life and death. What has held them together is
+                    wisdom in their native tongue.
+                </p>
+            </div>
+            <p class="text-xl text-slate-300 text-center italic text-white leading-relaxed font-semibold">
+                We pass on wisdom digitally, creating a world where <br class="hidden md:block">
+                communication never breaks down, even after the parents are gone.
+            </p>
+        </div>
+    </section>
+
+    <!-- New Ecosystem Section -->
+    <section class="py-32 bg-slate-900 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-blue-500 font-bold mb-4 text-center text-sm uppercase tracking-[0.2em]">04. SERVICE
+                ECOSYSTEM</h2>
+            <h3 class="text-4xl font-bold text-white mb-12 text-center">Providing quality care across Malaysia.</h3>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Daily Check-in -->
+                <div
+                    class="glass-card p-8 rounded-3xl hover:bg-slate-800 transition-colors border-2 border-green-500/20">
+                    <div
+                        class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mb-6 shadow-lg shadow-green-500/20">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-4">Daily Check-in</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">Record your mood with one tap. AI detects changes
+                        early to prevent panic before it happens.</p>
+                </div>
+
+                <!-- 1 on 1 Video -->
+                <div
+                    class="glass-card p-8 rounded-3xl hover:bg-slate-800 transition-colors border-2 border-blue-500/10">
+                    <div
+                        class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mb-6 shadow-lg shadow-blue-500/20">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-4">1 on 1 Video Chat</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">Talk to experts from anywhere in Malaysia. We
+                        break down the barriers of distance.</p>
+                </div>
+
+                <!-- Digital Skill Cards -->
+                <div
+                    class="glass-card p-8 rounded-3xl hover:bg-slate-800 transition-colors border-2 border-blue-500/20">
+                    <div
+                        class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mb-6 shadow-lg shadow-blue-600/20">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2">
+                            </path>
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-4">Digital Skill Cards</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">Visual guides for daily tasks. Build confidence by
+                        achieving "I can do it!" step by step.</p>
+                </div>
+
+                <!-- AI Coach -->
+                <div
+                    class="glass-card p-8 rounded-3xl hover:bg-slate-800 transition-colors border-2 border-blue-500/10">
+                    <div
+                        class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mb-6 shadow-lg shadow-blue-500/20">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10">
+                            </path>
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-4">Learning Modules</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">Lessons for independent living. AI Coach stays by
+                        your side 24/7.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Possibility Section -->
+    <!-- <section class="py-32 bg-blue-600 px-6 text-white overflow-hidden relative shadow-inner text-center">
+        <div class="max-w-4xl mx-auto relative z-10">
+            <h2 class="text-blue-200 font-bold mb-4 text-sm uppercase tracking-[0.2em]">05. THE POSSIBILITY</h2>
+            <h3 class="text-4xl md:text-5xl font-bold mb-8 text-white">Reaching the 700,000 left behind.</h3>
+            <div class="space-y-8 text-xl leading-relaxed max-w-2xl mx-auto text-blue-50">
+                <div class="grid md:grid-cols-2 gap-8 mt-12 text-left">
+                    <div class="bg-white/10 p-8 rounded-2xl backdrop-blur-md border border-white/20">
+                        <h4 class="font-bold mb-4 text-2xl text-white text-center md:text-left">Infinite Scaling</h4>
+                        <p class="text-base text-blue-50 text-lg">Agora's network allows us to help thousands of
+                            families at once. No one is left alone.</p>
+                    </div>
+                    <div class="bg-white/10 p-8 rounded-2xl backdrop-blur-md border border-white/20">
+                        <h4 class="font-bold mb-4 text-2xl text-white text-center md:text-left">Real-time Connection
+                        </h4>
+                        <p class="text-base text-blue-50 text-lg">Instant response with zero lag in the user's native
+                            language. The only real solution for Malaysia.</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </section>
+
+    <!-- App Section -->
+    <section class="py-32 px-6 max-w-5xl mx-auto">
+        <h2 class="text-blue-500 font-bold mb-4 text-center text-sm uppercase tracking-[0.2em]">06. THE IMPLEMENTATION
+        </h2>
+        <h3 class="text-4xl font-bold text-white mb-8 text-center uppercase">MyBerdikari App</h3>
+        <p class="text-xl text-slate-400 mb-12 text-center max-w-3xl mx-auto leading-relaxed">
+            Breaking barriers of language and distance. <br class="hidden md:block">
+            The ultimate support for every people with disabilities.
+        </p>
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <!-- Check-in -->
+                <div
+                    class="flex items-start gap-4 p-5 rounded-2xl hover:bg-slate-900 transition-all border border-transparent hover:border-slate-800 shadow-sm">
+                    <div class="bg-green-500/20 p-3 rounded-xl text-green-400 font-bold flex-shrink-0">00</div>
+                    <div>
+                        <h4 class="text-white font-bold mb-2 uppercase tracking-wide text-sm">Easy Daily Check-ins</h4>
+                        <p class="text-slate-400 text-sm leading-relaxed">Record your mood with one tap. AI talks back
+                            mother language and tone to keep you calm.</p>
+                    </div>
+                </div>
+                <!-- Knowledge Inheritance -->
+                <div
+                    class="flex items-start gap-4 p-5 rounded-2xl hover:bg-slate-900 transition-all border border-transparent hover:border-slate-800 shadow-sm">
+                    <div class="bg-blue-500/20 p-3 rounded-xl text-blue-400 font-bold flex-shrink-0">01</div>
+                    <div>
+                        <h4 class="text-white font-bold mb-2 uppercase tracking-wide text-sm">Implementation Cost</h4>
+                        <p class="text-slate-400 text-sm leading-relaxed">What are the expected costs involved in
+                            implementing this system?</p>
+                    </div>
+                </div>
+                <!-- Data Privacy -->
+                <div
+                    class="flex items-start gap-4 p-5 rounded-2xl hover:bg-slate-900 transition-all border border-transparent hover:border-slate-800 shadow-sm">
+                    <div class="bg-blue-500/20 p-3 rounded-xl text-blue-400 font-bold flex-shrink-0">02</div>
+                    <div>
+                        <h4 class="text-white font-bold mb-2 uppercase tracking-wide text-sm">Knowledge Accumulation
+                        </h4>
+                        <p class="text-slate-400 text-sm leading-relaxed">Are personal conversations stored and
+                            accumulated as digital knowledge?</p>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="glass-card rounded-[40px] p-6 flex flex-col justify-center items-center h-[500px] border-2 border-blue-500/30 shadow-2xl shadow-blue-500/10">
+                <div
+                    class="w-24 h-24 bg-blue-500 rounded-full animate-pulse mb-8 shadow-[0_0_50px_rgba(59,130,246,0.5)]">
+                </div>
+                <p class="text-white text-3xl font-bold mb-2 tracking-tight">Hello, I'm here.</p>
+                <p class="text-slate-500 text-center italic">Conversation AI Interface</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-32 bg-white text-slate-900 px-6 text-center">
+        <h2 class="text-4xl md:text-7xl font-extrabold mb-12 tracking-tighter text-slate-900">
+            Digital Social Work <br class="md:hidden"> to every people with disabilities and their family.
+        </h2>
+        <p class="text-2xl text-slate-600 mb-12 max-w-2xl mx-auto leading-relaxed font-semibold">
+            Filling the gap of 700,000 needs with technology.<br>
+        </p>
+        <div class="flex flex-col items-center gap-6 text-slate-900">
+
+            <p class="text-slate-400 text-sm">© 2026 JAYATECH. Pioneering the future of Digital Social
+                Work.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
